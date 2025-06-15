@@ -1,22 +1,27 @@
-🧠 Customer Churn Prediction
+# Customer Churn Prediction
 Predicting customer churn to drive retention strategy and reduce business losses.
 
-🚀 Project Overview
+
+
+## 🚀 Project Overview
 Customer churn is a silent killer of revenue. In this project, we:
 
-Analyzed a real-world telco dataset
 
-Engineered meaningful features
+-Analyzed a real-world telco dataset
 
-Built and tuned classification models
+-Engineered meaningful features
 
-Optimized for recall using cost-sensitive analysis
+-Built and tuned classification models
 
-Saved the best model for deployment
+-Optimized for recall using cost-sensitive analysis
 
-Our final model enables targeted retention campaigns, minimizing churn at scale.
+-Saved the best model for deployment
 
-📂 Repository Structure
+-Our final model enables targeted retention campaigns, minimizing churn at scale.
+
+
+
+##📂 Repository Structure
 graphql
 Copy
 Edit
@@ -30,14 +35,16 @@ Edit
 │   └── 05_model_building_evaluation_cost_analysis.ipynb
 ├── .gitignore
 └── README.md                      # This file
-🛠️ Tech Stack
+
+
+##🛠️ Tech Stack
 Python (Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn)
-
 Jupyter Notebooks
-
 Git + GitHub
 
-📊 Final Model: Tuned XGBoost
+
+
+###📊 Final Model: Tuned XGBoost
 max_depth = 3, n_estimators = 100, scale_pos_weight = 3
 
 Threshold = 0.65
@@ -52,7 +59,9 @@ Accuracy: 76%
 
 Why XGBoost? Best tradeoff between recall (catching churners) and limiting false positives.
 
-💸 Cost-Sensitive Strategy
+
+
+##💸 Cost-Sensitive Strategy
 We estimated financial impact using:
 
 Churn cost: $70/month lost revenue
@@ -63,7 +72,9 @@ Target churn reduction: from 25% → 20%
 
 We selected a threshold that maximizes business savings, not just metrics.
 
-✅ Highlights
+
+
+##✅ Highlights
 🧼 Cleaned and validated all key variables
 
 🔍 Hypothesis-driven EDA
@@ -83,9 +94,9 @@ xgb_churn_model.pkl
 
 churn_threshold.pkl
 
-Can be loaded in production for API or dashboard integration.
 
-📈 Next Steps (Optional)
+
+###📈 Next Steps (Optional)
 Add a Streamlit dashboard or FastAPI endpoint
 
 Connect to a customer DB for live scoring
@@ -94,10 +105,13 @@ Automate monthly churn reports
 
 Explore SHAP values for model interpretability
 
+
+
 👤 Author
 Elias
 Aspiring Data Analyst / Machine Learning Engineer
 GitHub | LinkedIn
+
 
 
 
