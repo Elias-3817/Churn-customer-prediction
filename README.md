@@ -1,4 +1,4 @@
-🧠 Customer Churn Prediction
+7🧠 Customer Churn Prediction
 Predicting customer churn to drive retention strategy and reduce business losses.
 
 🚀 Project Overview
@@ -97,6 +97,6 @@ Explore SHAP values for model interpretability
 👤 Author
 Elias
 Aspiring Data Analyst / Machine Learning Engineer
-GitHub | LinkedIn
+GitHub |
 
 
