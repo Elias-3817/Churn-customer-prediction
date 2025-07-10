@@ -1,4 +1,4 @@
-7🧠 Customer Churn Prediction
+🧠 Customer Churn Prediction
 Predicting customer churn to drive retention strategy and reduce business losses.
 
 🚀 Project Overview
