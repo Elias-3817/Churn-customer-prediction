@@ -32,7 +32,7 @@ Our final model enables surgical retention campaigns by flagging the highest‑r
 │   ├── 04_model_comparison_and_tuning.ipynb
 │   └── 05_evaluation_and_cost_analysis.ipynb
 ├── deployment_script.py                 # Load model & predict function (In progress)
-├── Dashboard/                          # Final model dashboard (In progress)
+├── Dashboard/                          # Final model dashboard 
 ├── requirements.txt                     # Python dependencies
 |── README.md                            # Project overview (this file)
 
